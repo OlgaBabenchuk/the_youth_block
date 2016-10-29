@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="myicons" horiz-adv-x="100">
+    <font-face font-family="myicons"
+      units-per-em="100" ascent="100"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="check"
+      unicode="&#xEA01;"
+      horiz-adv-x="100" d="M91.734375 84.01843A2.0001999 2.0001999 0 0 1 90.390625 83.29968L36.765625 20.89338L9.296875 46.45598A2.0005674 2.0005674 0 1 1 6.546875 43.54968L35.546875 16.54968A2.0001999 2.0001999 0 0 1 38.453125 16.70598L93.453125 80.70593A2.0001999 2.0001999 0 0 1 91.734375 84.01843z" />
+    <glyph glyph-name="plus"
+      unicode="&#xEA02;"
+      horiz-adv-x="100" d="M49.875 94.03125A2.0002 2.0002 0 0 1 48.09375 92L48.09375 52L8.09375 52A2.0002 2.0002 0 0 1 7.90625 52A2.0021961 2.0021961 0 1 1 8.09375 48L48.09375 48L48.09375 8A2.0002 2.0002 0 1 1 52.09375 8L52.09375 48L92.09375 48A2.0002 2.0002 0 1 1 92.09375 52L52.09375 52L52.09375 92A2.0002 2.0002 0 0 1 49.875 94.03125z" />
+  </font>
+</defs>
+</svg>

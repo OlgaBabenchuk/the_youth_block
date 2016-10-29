@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@font-face {
+  font-family: "myicons";
+  src: url("../fonts/myicons.eot");
+  src: url("../fonts/myicons.?#iefix") format("embedded-opentype"), url("../fonts/myicons.woff") format("woff"), url("../fonts/myicons.ttf") format("truetype"), url("../fonts/myicons.#myicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon {
+  font-family: "myicons"; }
+  .icon:before {
+    /* Some common icon stuff */ }
+  .icon.-check:before {
+    content: ""; }
+  .icon.-plus:before {
+    content: ""; }
+
+/*------ background colors ------*/
+body {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #fff; }
+  body * {
+    box-sizing: border-box; }
+
+.layer {
+  width: 307px;
+  height: 307px;
+  margin: 70px auto;
+  background-image: url(/dist/assets/img/layer.png);
+  position: relative; }
+  .layer .layer__shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -999;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: opacity .5s; }
+  .layer:hover .layer__shadow {
+    left: 0;
+    opacity: 1; }
+
+/*------ toggle sliders ------*/
+.toggle-wrap {
+  width: 35px;
+  height: 35px;
+  margin: 16px auto;
+  background-color: #25c5cc;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+  overflow: hidden; }
+
+.toggle-wrap.on .toggle__plus {
+  display: none; }
+
+/*------ range sliders ------*/
+.range-wrapper {
+  width: 222px;
+  height: 150px;
+  margin: 33px auto; }
+  .range-wrapper .range-block {
+    width: 100%;
+    height: 50%;
+    position: relative; }
+    .range-wrapper .range-block .range__text {
+      font-size: 24px; }
+    .range-wrapper .range-block [type=range] {
+      -webkit-appearance: none;
+      width: 100%;
+      position: absolute;
+      bottom: 15px;
+      border-radius: 3px; }
+      .range-wrapper .range-block [type=range]::-webkit-slider-runnable-track {
+        height: 6px;
+        cursor: pointer;
+        background: #fff; }
+      .range-wrapper .range-block [type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: #25c5cc;
+        cursor: pointer;
+        margin-top: -8px;
+        z-index: 4; }
+    .range-wrapper .range-block .range__progress {
+      height: 6px;
+      background-color: #25c5cc;
+      position: absolute;
+      left: 2px;
+      bottom: 17px;
+      z-index: 1; }
+    .range-wrapper .range-block .range1__value {
+      width: 81px;
+      height: 35px;
+      font-size: 18px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: 1px solid currentColor;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
