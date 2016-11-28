@@ -31,7 +31,7 @@ body {
   width: 307px;
   height: 307px;
   margin: 70px auto;
-  background-image: url(/dist/assets/img/layer.png);
+  background-image: url(../img/layer.png);
   position: relative; }
   .layer .layer__shadow {
     width: 100%;

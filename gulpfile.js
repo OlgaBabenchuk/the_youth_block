@@ -11,7 +11,7 @@ gulp.task('sass', function () {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest('./dist/assets/css'))
+        .pipe(gulp.dest('./dist/css'))
         .pipe(browserSync.stream({match: '**/*.css'}))
 }); 
 
@@ -34,7 +34,7 @@ gulp.task("build:icons", function() {
             }))
             .pipe(gulp.dest("./assets/scss/icons")); //generated scss files with classes
       })
-      .pipe(gulp.dest("dist/assets/fonts")); //icon font destination
+      .pipe(gulp.dest("dist/fonts")); //icon font destination
 });
 
 gulp.task('browser-sync', ['sass'], function(){
